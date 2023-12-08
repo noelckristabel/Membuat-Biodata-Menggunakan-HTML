@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+}
+
+.container {
+	width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.navigasi {
+	background-color: #3b4997;
+	width: 1300px;
+	height: 70px;
+	color: white;
+	position: fixed;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.logo {
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+
+.menu {
+	margin-left: 800px;
+	padding-top: 27px;
+}
+
+
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+
+.menu ul li a:hover {
+	color: lightskyblue;
+	font-style: italic;
+}
+
+.banner {
+	background-color: #3b5997;
+	height: 600px;
+	text-align: center;
+	width: white;
+}
+
+.banner img{
+	border-radius: 90px;
+	height: 150px;
+	border:6px solid white;
+	margin-top: 100px;
+}
+
+.banner h1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.banner button {
+	margin-top: 60px;
+	padding: 10px;
+	border-radius: 50px;
+	width:400px;
+	border:none;
+}
+
+.banner button:hover {
+	background-color: #3b5997;
+	border:1px solid white;
+	color: white;
+
+}
+
+h1 span:before {
+		content: '';
+		animation: gerak infinite 8s ease;
+		transform: translateY(-50%);
+		color: lightblue;
+		font-size: 70px;
+
+}
+
+@keyframes gerak {
+	0% {
+		content: 'Selamat Datang';
+	}
+	50% {
+		content: 'Saya Noel C. Maniawasi';
+	}
+	100% {
+		content: 'Terima kasi Sudah Singgah!';
+	}
+}
+
+
+.box-pendidikan {
+	text-align: center;
+	color: #4d4d4d;
+	margin-top: 30px;
+	align-content: center;
+}
+
+
+.box-kiri, .box-tengah, .box-kanan {
+	width: 300px;
+	height: 320px;
+	background-color: #f0f0f0;
+	padding-top: 30px;
+	text-align: center;
+	padding: 30px 30px;
+	padding-top: 70px;
+	margin: 70px 20px 20px 44px;
+	border-radius: 10px;
+	float: left;
+}
+
+ .box-kanan img {
+	width: 90px;
+	height: 90px;
+	border-radius: 90px;
+}
+
+.box-kiri img {
+	width: 90px;
+	height: 90px;
+	border-radius: 90px;
+}
+
+.box-tengah img {
+	width: 90px;
+	height: 90px;
+	border-radius: 90px;
+
+
+}
